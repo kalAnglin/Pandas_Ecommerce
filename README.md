@@ -1,5 +1,7 @@
 # Pandas-Challenge-1
 
+I worked with a LA on AskBSC-307849
+
 ## Overview
 
 Use Python's Pandas library to explore, analyze and transform the dataset from fictional e-commerce company.
