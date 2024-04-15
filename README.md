@@ -13,9 +13,11 @@ To become more familiar with the aspects of data analysis related to examining, 
 
 ![E-Commerce](images/Ecommerce.jpeg)
 
-Data analytics are extremely valuable to onlin
+Data analytics are extremely valuable to online retailers because they provide advanced insights into what customers are likely to buy, the best product mix, and at what price point retailers should be selling in order to maximize profits
 
 ## Landscape
+Most Ecommerce companies are using data analytics to help build a robust supply chain and forecasting inventory, fraud detection, determining future trends,
+personalizing recommendations and shopping experience, evaluation marketing strategies, and optimizing pricing.
 
 ## Results
 
