@@ -16,7 +16,7 @@ To become more familiar with the aspects of data analysis related to examining, 
 Data analytics are extremely valuable to online retailers because they provide advanced insights into what customers are likely to buy, the best product mix, and at what price point retailers should be selling in order to maximize profits
 
 ## Landscape
-Most Ecommerce companies are using data analytics to help build a robust supply chain and forecasting inventory, fraud detection, determining future trends,
+Most ecommerce companies are using data analytics to help build a robust supply chain and forecasting inventory, fraud detection, determining future trends,
 personalizing recommendations and shopping experience, evaluation marketing strategies, and optimizing pricing.
 
 ## Results
@@ -41,6 +41,7 @@ personalizing recommendations and shopping experience, evaluation marketing stra
  1. Determine how much each of the top 5 clients spent by quantity.
  2. Create a summary dataframe showing the totals of the top 5 clients along with the following information: total units purchased, total shipping price, total revenue, and total profit. Sort by total profit.
  3. Format the data and rename the columns to names suitable for presentation, with currency in millions of dollars. Summarize your findings.
+Data analysis showed the out of the five top clients, the most profit was generated from client id 24741 with $36.58 million in total profit. This was calculated by considating the original data into a dataframe that represented the total revenue of the orders for the top five clients and the total cost/expense incurred by fulfilling their orders. The the method used to calculate the total revenue for the top five clients was based on similar method used to calculate revenue for a specific order. The revenue was based on the line subtotal for every order plus the shipping cost, with the shipping cost varying due to the weight of the order. The line subtotal was calculated by multiplying the price of the unit in the order by the quantity. based  id for each client was confirmed based on receipts we based on the the purchased the mostthe five clients which the most orders in the data set, 
 
 ## Recommendations
 
