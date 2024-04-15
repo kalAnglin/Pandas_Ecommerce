@@ -11,6 +11,7 @@ To become more familiar with the aspects of data analysis related to examining, 
 
 ## Business Advantage [^1]
 
+![E-Commerce](images/Ecommerce.jpeg)
 
 Data analytics are extremely valuable to onlin
 
