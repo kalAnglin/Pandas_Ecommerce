@@ -16,17 +16,16 @@ To become more familiar with the aspects of data analysis related to examining, 
 Data analytics are extremely valuable to online retailers because they provide advanced insights into what customers are likely to buy, the best product mix, and at what price point retailers should be selling in order to maximize profits
 
 ## Landscape
-Most ecommerce companies are using data analytics to help build a robust supply chain and forecasting inventory, fraud detection, determining future trends,
-personalizing recommendations and shopping experience, evaluation marketing strategies, and optimizing pricing.
+Most ecommerce companies are using data analytics to help build a robust supply chain and forecasting inventory, determine future trends, personalize recommendations and shopping experiencec, evaluate marketing strategies, optimize pricing, and for fraud detection.
 
 ## Results
-Data analysis showed the item category of consumables had the most orders with 6,424 orders for bathroom supplies. Analysis also showed out of the five top clients, the most profit was generated from client id 24741 with $36.58 million in total profit. Total profit was calculated by considating the original data into a dataframe that represented the total revenue of the orders for the top five clients and the total cost/expense incurred by fulfilling the orders for the top five. 
+Data analysis showed the item category of consumables had the most orders with 6,424 orders for bathroom supplies. Analysis also showed out of the five top clients, the most profit was generated from client id 24741 with $36.58 million in total profit. Total profit was calculated by considating the original data into a dataframe that represented the total revenue of the orders for the top five clients and the total cost/expense incurred by fulfilling the orders for the top five, and subtracting the two. 
 
-The method used to calculate the total revenue for the top five was based on similar method used to calculate revenue for a specific order. In the case of the top five, a loop function which included a "find_client_price" function was used to identify the client and return the sum of units, shipping cost, total revenue and cost, and the total profit for each of the top five. The "find_client_price" function was confirmed by using the equivalent "find_order_price" function to calculate the total price for orders ids 2742071, 2173913, 6128929. The totals for each were compared to emailed receipts provided for the respective order ids.
+The function used to calculate the total revenue for the top five was based on the function used to calculate revenue for a specific order. In the case of the top five, a loop which included a "find_client_price" function was used to identify the client and return the sum of units, shipping cost, total revenue and cost, and the total profit for each of the top five. The "find_client_price" function was confirmed by using the equivalent "find_order_price" function to calculate the total price for order ids 2742071, 2173913, 6128929. The totals for each were compared to emailed receipts provided for the respective order ids.
 
 The calculation for revenue was based on the line subtotal for every order plus the shipping cost, with the shipping cost varying due to the weight of the order. The line subtotal was calculated by multiplying the price of the units in the order by the quantity. The calculation for cost was based on the cost of the units in the order, multiplied by the quantity of units plus the shipping price. 
 
 ## Recommendations
-To utilize the results of the data analysis to present personalized recommendations to the top five clients would helpful establishing a customer rapport, forecasting future inventory, and optimizing profits.
+To utilize the results of the data analysis to present personalized recommendations and shopping experiences to the top five clients to build longstanding relationships which will help in forecasting future inventory and optimizing profits.
 
 [^1]: https://www.comtecinfo.com/rpa/9-benefits-of-analytics-in-ecommerce-industry/
