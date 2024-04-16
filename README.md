@@ -20,6 +20,8 @@ Most ecommerce companies are using data analytics to help build a robust supply 
 personalizing recommendations and shopping experience, evaluation marketing strategies, and optimizing pricing.
 
 ## Results
+Data analysis showed the item category of consumables had the most orders with 6,424 orders for bathroom supplies. Analysis also showed out of the five top clients, the most profit was generated from client id 24741 with $36.58 million in total profit. Both results were calculated by considating the original data into a dataframe that represented the total revenue of the orders for the top five clients and the total cost/expense incurred by fulfilling the orders for the top five. The the method used to calculate the total revenue for the top five was based on similar method used to calculate revenue for a specific order. In the case of the top five, a loop function which included a "find_client_price" method was used to identify the client and return the sum of units, shipping cost, total revenue and cost, and total profit for each of the top five.  The calculation for revenue was based on the line subtotal for every order plus the shipping cost, with the shipping cost varying due to the weight of the order. The line subtotal was calculated by multiplying the price of the units in the order by the quantity. The calculation for cost was based on the cost of the units in the order, multiplied by the quantity of units plus the shipping price. This method was used to calculate the total price for orders ids 2742071, 2173913, 6128929. The totals for each were compared to emailed receipts provided for the respective ids.
+
 
 ### Explore the Data
 1.  Identify three item categories had the most entries.
@@ -41,7 +43,8 @@ personalizing recommendations and shopping experience, evaluation marketing stra
  1. Determine how much each of the top 5 clients spent by quantity.
  2. Create a summary dataframe showing the totals of the top 5 clients along with the following information: total units purchased, total shipping price, total revenue, and total profit. Sort by total profit.
  3. Format the data and rename the columns to names suitable for presentation, with currency in millions of dollars. Summarize your findings.
-Data analysis showed the out of the five top clients, the most profit was generated from client id 24741 with $36.58 million in total profit. This was calculated by considating the original data into a dataframe that represented the total revenue of the orders for the top five clients and the total cost/expense incurred by fulfilling their orders. The the method used to calculate the total revenue for the top five clients was based on similar method used to calculate revenue for a specific order. The revenue was based on the line subtotal for every order plus the shipping cost, with the shipping cost varying due to the weight of the order. The line subtotal was calculated by multiplying the price of the unit in the order by the quantity. based  id for each client was confirmed based on receipts we based on the the purchased the mostthe five clients which the most orders in the data set, 
+
+
 
 ## Recommendations
 
